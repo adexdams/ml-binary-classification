@@ -27,9 +27,9 @@ It was sourced from **Kaggle**: https://www.kaggle.com/datasets/rabieelkharoua/p
 * **Discounts Availed:** Number of discounts availed by the customer (range: 0-5)
 * **Purchase Status (Target  Variable):** Likelihood of the customer making a purchase (0: No, 1: Yes)
 
-## Approach
+### Approach
 
 
-## Conclusion
+### Conclusion
 
 
