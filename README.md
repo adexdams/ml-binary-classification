@@ -42,4 +42,4 @@ It was sourced from **Kaggle**: https://www.kaggle.com/datasets/rabieelkharoua/p
 
 ### Conclusion
 
-I selected the RandomForestClassifier because it had the highest accuracy score of 0.94. However, I should mention I worry the RandomForestClassifier model might have been exposed to the data previously because it was the only model that I used the cross-validation approach upon while training the data. I might be wrong about the overfitting issue, nevertheless, the RandomForestClassifier was the best pick of all.
+**I selected the RandomForestClassifier because it had the highest accuracy score of 0.94.** However, I should mention I worry the RandomForestClassifier model might have been exposed to the data previously because it was the only model that I used the cross-validation approach upon while training the data. I might be wrong about the overfitting issue, nevertheless, the RandomForestClassifier was the best pick of all.
