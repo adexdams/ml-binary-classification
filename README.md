@@ -29,7 +29,17 @@ It was sourced from **Kaggle**: https://www.kaggle.com/datasets/rabieelkharoua/p
 
 ### Approach
 
+1. Started with an exploratory data analysis to understand the data.
+2. Sought missing values but I had nothing to do next since there were none.
+3. Checked for outlier values using min/max and describe the function.
+3. Developed pie charts, box plots, bar charts
+4. A correlation table and heat map were developed to see if the variables are correlated and to what extent.
+5. Prepared the data and developed 4 classification ML models to assess the best predictive estimator.
+6. The estimators developed and the related accuracy scores were Gaussian Naive Bayes (0.81), Linear SVC (0.58), KNeighbors Classifier (0.62), and RandomForestClassifier (0.93).
+7. I selected the RandomForestClassifier because it had the highest score of 0.93
+8. Took on a hyperparameter tunning of the RandomForestClassifier and achieved a marginal 0.01 improvement of the accuracy score.
+
 
 ### Conclusion
 
-
+I selected the RandomForestClassifier because it had the highest accuracy score of 0.94. However, I should mention I worry the RandomForestClassifier model might have been exposed to the data previously because it was the only model that I used the cross-validation approach upon while training the data. I might be wrong about the overfitting issue, nevertheless, the RandomForestClassifier was the best pick of all.
